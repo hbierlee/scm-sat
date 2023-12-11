@@ -2,7 +2,7 @@
 
 Submitted to CPAIOR'24 and will be published as part of a larger SAT encoding library at a later stage / after publication.
 
-Each file `scm/w_c.txt` has an optimal circuit to compute `y=c*x`, where `x` is a binary encoded integer variable `x` using `w` bits which is multiplied by constant `c` to create `y` with the minimal number of half/full adders. If files where `w=0`, the circuit is minimal in the number of additions/subtractions (regardless of the actual bit width of `x`). The recipes are defined in a self-explanatory format with descriptive comments:
+Each file `scm/w_c.txt` has an optimal circuit to compute `y=c*x`, where `x` is a binary encoded integer variable `x` using `w` bits which is multiplied by constant `c` to create `y` with the minimal number of half/full adders. In files where `w=0`, the circuit is minimal in the number of additions/subtractions (regardless of the actual bit width of `x`). The recipes are defined in a self-explanatory format with descriptive comments:
 
 ```
 > cat 4_117.txt 
